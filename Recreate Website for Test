@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>________________</title>
 
+    <style>
+        body {
+            ________________
+        }
+
+        img {
+            ________________
+        }
+
+        .special {
+            ________________
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>________________</h1>
+        <p>________________</p>
+
+        <nav>
+            <a href="________________">________________</a> |
+            <a href="________________">________________</a> |
+            <a href="________________">________________</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h2 id="________________">________________</h2>
+
+        <section>
+            <h3>________________</h3>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFEnj1lDMfQd4r0Pb8whT2KkNibVqdAEGZQ6-gWWGgdg&s=10" alt="Pancakes">
+
+            <p>
+                ________________
+            </p>
+
+            <p class="special">________________</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>________________</h3>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIC2fdM1I8CUDTTxuRKzcgc29o82v9WcFN3RB3b3jfQwIL3A8yeHSSQkg&s=10" alt="Waffles">
+
+            <p>
+                ________________
+            </p>
+
+            <p class="special">________________</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h3>________________</h3>
+
+            <img src="https://i.pinimg.com/474x/52/23/a4/5223a43fb4f91913e3dc377862b8d22d.jpg" alt="French Toast">
+
+            <p>
+                ________________
+            </p>
+
+            <p class="special">________________</p>
+        </section>
+
+        <hr>
+
+        <h2 id="________________">________________</h2>
+
+        <p>
+            ________________
+
+        <p>
+            ________________
+        </p>
+
+        <h2 id="________________">________________</h2>
+
+        <p>________________</p>
+        <p>________________</p>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>________________</p>
+    </footer>
+
+</body>
+</html>
