@@ -7,14 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--  screen displays correctly on different sized screens  -->
     <meta name="author" content="Ayden Roddy"> <!--credits me as owner  -->
     <meta name="description" content="A portfolio showcasing my web development work."> <!--   summary for search engines -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
-  <body>
+  <body id="top"> <!--back to top-->
 
-    <!-- chapter 2 -->
+    <!-- practice activity 2 -->
   <header>
     <h1> Ayden Roddy </h1>
     <h2>Web Developer<br> and Designer</h2>
     <p>I am studying at OCVTS with hopes of working in <strong>Cybersecurity</strong></p>
+    <!--Navigation-->
+    <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
   <!--hero content here-->
     <!-- Header / Hero Section -->
   <hr>
@@ -23,7 +37,7 @@
     <h2>About Me </h2>
 
    
-    
+     <!-- About Section -->
     <!--hero specifically-->
 
       <p>My name is <strong>Ayden Roddy</strong>, and I am studying at Ocean County Toms River OCVTS for computer science, but my ultimate goal is <strong>Cybersecurity</strong>. <br>  </p>
@@ -35,16 +49,37 @@
       <blockquote>
         "The only way to do great work is to love what you do."
         <cite>— Steve Jobs</cite></blockquote>
-    </section>
-    <!-- Navigation -->
-
-    <!-- About Section -->
+      </section>
 
     <!-- Projects Section -->
+     <section id="projects">
+      <h2>Projects</h2>
+      <p>Recent Web Developement Projects:</p>
+      <ul>
+        <li>Favorites Hub Web Page</li>
+      </ul>
+    </section>
 
     <!-- Contact Section -->
-
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me:</p>
+      
+      <p>Email: <a href="mailto:ayden0825@gmail.com">Email Me</a></p>
+      <p>Phone: <a href="tel:7326428374">Call Me</a></p>
+      <p><a href="javascript:window.print()">Print This Page</a></p>
+      <p><a href="#" onclick="alert('Coming soon!')">Sign up for newsletter</a></p>
+    </section>
     <!-- Footer -->
+    <footer>
+      <hr>
+      <p>Connect with me:</p>
+      <p>
+        <a href="https://github.com/AydenR784" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+        <!-- <a href="https://linkedin.com/in/my name for later" target="_blank" rel="noopener noreferrer">LinkedIn</a> |  --> <!--forgot password they need time to verify I guess-->
+        <a href="https://instagram.com/ayden.rod711" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </p>
+    </footer>
   </body>
 </html>
 
