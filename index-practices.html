@@ -11,6 +11,9 @@
       html {
         scroll-behavior: smooth;
       }
+      .featured-project-image {
+        border: 2px solid #555;
+      }
     </style>
   </head>
   <body id="top"> <!--back to top-->
@@ -24,6 +27,7 @@
     <nav>
         <ul>
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -73,19 +77,36 @@
       <h3>Career Timeline</h3>
       <ol class="timeline">
         <li><strong>Computer Science Student <em>2026–Present</em></strong> — Studying computer science at OCVTS.</li>
+        <br>
         <li><strong>Web Developer (Favorites Hub) <em>2026</em></strong> — Building and refining a personal web project.</li>
+        <br>
         <li><strong>Programming Skills Development <em>2026–Present</em></strong> — Practicing Python, HTML, CSS, JavaScript, Git, and Java.</li>
+        <br>
         <li><strong>Aspiring Cybersecurity Professional <em>2027</em></strong> — Working toward a career protecting systems.</li>
       </ol>
       </section>
 
     <!-- Projects Section -->
      <section id="projects">
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <figure>
+          <img class="featured-project-image" src="FavoritesSS.jpg.png" alt="Image of the Favorites Hub Web Page" width="800" height="400">
+          <figcaption>Mini Project 1: Favorites Hub Web Page</figcaption>
+        </figure>
+        <figure>
+          <img class="featured-project-image"src="CareerFairImage.png" alt="Image of the OCVTS Career Fair 2026 Mockup Web Page" width="800" height="400">
+          <figcaption>OCVTS Career Fair 2026 Mockup</figcaption>
+        </figure>
+        <figure>
+          <img class="featured-project-image" src="AboutMeWebsite.png" alt="Image of the About Me Website, your current website" width="800" height="400">
+          <figcaption>About Me Website</figcaption>
+        </figure>
+      </div>
       <table>
         <thead>
           <tr>
-            <th scope="col">Name</th>
+            <th scope="col">Title</th>
             <th scope="col">Technologies</th>
             <th scope="col">Year</th>
             <th scope="col">Status</th>
@@ -96,7 +117,7 @@
             <td>Favorites Hub Web Page</td>
             <td>HTML, CSS</td>
             <td>2026</td>
-            <td>In progress</td>
+            <td>Completed</td>
           </tr>
           <tr>
             <td>OCVTS Career Fair 2026 Web Page (mockup)</td>
